@@ -1,0 +1,14 @@
+.SearchToolBox{
+    position: relative;
+    top: 1px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    z-index: 100;
+    opacity: 0;
+    transition: 0.5s all ease;
+
+}
+.SearchToolBox.active{
+    opacity: 1;
+}
